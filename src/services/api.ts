@@ -68,10 +68,10 @@ export interface AdminData extends RegistrationData {
 // Mock data for preview if GAS URL is not set
 const getInitialMockSettings = (): AppSettings => {
   const defaultSettings: AppSettings = {
-    namaSekolah: "SDN Harapan Bangsa",
-    alamat: "Jl. Pendidikan No. 123, Kota Pelajar, Indonesia 12345",
-    telepon: "(021) 1234-5678",
-    email: "info@sdnharapanbangsa.sch.id",
+    namaSekolah: "SMP PGRI 1 Sempor",
+    alamat: "Jl. Sempor Baru, Jatinegara, Sempor - Kebumen",
+    telepon: "+6288227751500",
+    email: "smppgri1sempor@gmail.com",
     deskripsi: "Mencetak generasi penerus bangsa yang cerdas, berakhlak mulia, dan siap menghadapi tantangan masa depan dengan pendidikan berkualitas.",
     statusPendaftaran: "Buka",
     persyaratanDaftarUlang: "1. Membawa Bukti Kelulusan yang dicetak\n2. Membawa Fotokopi Akta Kelahiran (2 lembar)\n3. Membawa Fotokopi Kartu Keluarga (2 lembar)\n4. Membawa Pas Foto 3x4 (4 lembar)\n5. Melakukan pembayaran administrasi awal",
