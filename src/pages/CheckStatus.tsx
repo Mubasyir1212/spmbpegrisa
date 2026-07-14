@@ -281,12 +281,12 @@ export default function CheckStatus() {
         >
           <div className="bg-gradient-to-r from-blue-600 to-blue-800 px-8 py-8 text-white text-center">
             <h2 className="text-2xl font-bold mb-2">Cek Status Kelulusan</h2>
-            <p className="text-blue-100 text-sm">Masukkan nomor pendaftaran Anda untuk melihat hasil seleksi SPMB.</p>
+            <p className="text-blue-100 text-sm">Masukkan NISN Anda untuk melihat hasil seleksi SPMB.</p>
           </div>
 
           <div className="p-8">
             <form onSubmit={handleSearch} className="mb-8">
-              <label className="block text-sm font-medium text-slate-700 mb-2">Nomor Pendaftaran</label>
+              <label className="block text-sm font-medium text-slate-700 mb-2">NISN (Nomor Induk Siswa Nasional) terdiri dari 10 digit angka</label>
               <div className="flex gap-2">
                 <input
                   type="text"
@@ -294,7 +294,7 @@ export default function CheckStatus() {
                   value={noPendaftaran}
                   onChange={(e) => setNoPendaftaran(e.target.value)}
                   className="flex-grow px-4 py-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
-                  placeholder="Contoh: SPMB-2024-001"
+                  placeholder="Contoh: 1234567890"
                 />
                 <button
                   type="submit"
